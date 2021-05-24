@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+  --color1: #f0f0f0;
+  --color2: #252525;
+  --color3: #2F545C;
+  --color4: rgba(255, 230, 0, 0.178);
+  --color5: rgba(3, 0, 17, 0.493);
+  --color6: hsla(0, 0%, 33%, 0.63);
+  --color7: hsla(0, 0%, 13%, 0.212);
+  --color8: #bdb469;
+  }
+  body{
+    width: 100%;
+    background-color: var(--color1);
+    box-sizing: content-box;
+    font-size: 10px;
+  }
+  .wave{
+    width: 100%;
+    
+}
+.contenedor_destacados{
+  width: 100%;
+  height: 70em;
+  background-color: var(--color1); 
+}
+.tituloProyectos{
+  color: var(--color3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3.5em;
+  font-size: 4em;
+  width: 10.3em;
+  border-bottom: 0.05em solid var(--color3);
+  padding: 0.3em 0.1em 0.6em 0.1em;
+}
+.proyectos-dest{
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  font-size: 2em;
+  margin-top: -0.8em;
+  width: 5.6em;
+  background-color: var(--color1);
+  color: var(--color2);
+}
+  .caja-proyectos{
+  width: 120em;
+  height: 50em;
+  background-color: var(--color1);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .destacados1{
+   width: 25em;
+   height: 35em;
+   transition: 0.8s;
+   margin: 1.5px;
+   margin-top: 5em;
+   border-radius: 0.5em;
+   background-image:url(../img/img1.jpg);
+   background-size: cover;
+   background-position: center;
+  }
+  .destacados1:hover{
+    background-color: var(--color7);
+    background-blend-mode: soft-light;
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+  }
+  .destacados1 img{
+    width: 250px;
+  }
+  .destacados2{
+    width: 25em;
+    height: 35em;
+    transition: 0.8s;
+    margin: 4em;
+    margin-top: 5em;
+    border-radius: 0.5em;
+    background-image:url(../img/img2.jpg);
+   background-size: cover;
+   background-position: center;
+  }
+  .destacados2:hover{
+    background-color: var(--color7);
+    background-blend-mode: soft-light;
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+  }
+  .destacados2 img{
+    width: 250px;
+  }
+  .destacados3{
+    width: 25em;
+    height: 35em;
+    transition: 0.8s;
+    margin: 1.5em;
+    transition: 0.8s;
+    margin-top: 5em;
+    border-radius: 0.5em;
+    background-image:url(../img/img3.jpg);
+    background-size: 25em;
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  .destacados3 img{
+    width: 25em;
+  }
+  .destacados3:hover{
+    background-color: var(--color7);
+    background-blend-mode: soft-light;
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+  }

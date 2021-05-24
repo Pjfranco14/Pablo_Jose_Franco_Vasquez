@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+  --color1: #f0f0f0;
+  --color2: #252525;
+  --color3: #2F545C;
+  --color4: rgba(255, 230, 0, 0.178);
+  --color5: rgba(3, 0, 17, 0.493);
+  --color6: hsla(0, 0%, 33%, 0.63);
+  --color7: hsla(0, 0%, 13%, 0.212);
+  --color8: #bdb469;
+} 
+  
+  body{
+    width: 100%;
+    background-color: var(--color1);
+    box-sizing: content-box;
+    font-size: 10px;
+  }
+  .cuerpo{
+    width: 100%;
+    height: 70em;
+    background: var(--color1);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(177, 27%, 69%, 0.671), hsla(0, 0%, 38%, 0.651)), url("../img/fondo.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(177, 27%, 69%, 0.671), hsla(0, 0%, 38%, 0.651)), url("../img/fondo.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .cajaFrase{
+    width: 120em;
+    height: 45em;
+    margin: auto;
+    padding-top: 24em;
+    
+    
+  }
+  .frase{
+    width: 40em;
+    height: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: var(--color1);
+    background-color: var(--color4);
+    font-size: 3em;
+  }
+  .wave{
+    width: 100%;
+  }
+  .leyenda{
+    width: 100%;
+    height: 70em;
+    background-color: var(--color2);
+
+  }
+  .tituloLenguajes{
+    color: var(--color1);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 4em;
+    width: 13em;
+    border-bottom: 0.05em solid var(--color1);
+    padding: 1em 0em 0.5em 0em;
+  }
+  .que-manejo{
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  font-size: 2em;
+  margin-top: -0.7em;
+  width: 12em;
+  background-color: var(--color2);
+  color: var(--color1);
+  }
+  .contenedor{
+    width: 120em;
+    height: 50em;
+    background-color: var(--color2);
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  .caja_1{
+    width: 30em;
+    height: 40em;
+    background-color: var(--color3);
+    flex-direction: row;
+    margin-top: 5em;
+    
+  }
+  .html{
+    width: 25em;
+    display: flex;
+    margin: auto;
+    margin-top: 3em;
+  }
+  .htmlP{
+    color:var(--color1);
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: auto;
+    margin-top: 1em;
+    background-color: var(--color5);
+  
+  }
+  .caja_2{
+    width: 30em;
+    height: 40em;
+    background-color: var(--color3);
+    flex-direction: row;
+    margin:0em 10em 0em;
+    margin-top: 5em;
+  }
+  .css{
+    width: 32em;
+    display: flex;
+    margin: auto;
+    margin-left: -0.8em;
+  }
+  .cssP{
+    color: var(--color1);
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: auto;
+    margin-top: -0.4em;
+    background-color: var(--color5);
+  
+  }
+  
+  .caja_3{
+    width: 30em;
+    height: 40em;
+    background-color: var(--color3);
+    flex-direction: row;
+    margin-top: 5em;
+  }
+  .JS{
+    width: 26em;
+    display: flex;
+    margin: auto;
+    margin-top: 3em; 
+    margin-left: 2.5em; 
+   
+  }
+  .JSP{
+    color: var(--color1);
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: auto;
+    margin-top: 0.6em;
+    background-color: var(--color5);
+  
+  }
+  .info-personal{
+    width: 100%;
+    height: 70em;
+    background-color: var(--color1);
+  }
+.tituloPersonal{
+  width: 6.5em;
+  color: var(--color3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 4em;
+  border-bottom: 0.05em solid var(--color3);
+  padding: 0.7em 0.1em 0.5em 0.1em;
+}
+.quien-soy{
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  font-size: 2.0em;
+  margin-top: -1em;
+  width: 6em;
+  background-color: var(--color1);
+  color: var(--color2);
+}
+.caja-info-personal{
+  width: 120em;
+  height: 50em;
+  margin: auto;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  
+}
+.img-personal{
+  width: 70em;
+  height: 40em;
+  margin-top: 1em;
+}
+.bio-personal{
+  width: 90em;
+  height: 50em;
+  padding: 2em 3em 3em 3em;
+  font-size: 1.8em;
+  justify-content: center;
+  text-align: justify;
+}
