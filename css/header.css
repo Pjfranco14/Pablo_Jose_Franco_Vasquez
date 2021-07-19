@@ -14,48 +14,56 @@
   --color7: hsla(0, 0%, 13%, 0.212);
   --color8: rgb(170, 159, 63);
 }
-@media only screen and (min-width: 375px){
+
+@media only screen and (min-width: 376px){
+    
+  body{
+        width: 100%;
+        background-color: var(--color1);
+        box-sizing: content-box;
+        font-size: 10px;
+  }     
   header{
       width: 100%;
-      height: 100px;
+      height: 10em;
       background-color: var(--color3);
       position: fixed;
       z-index: 1000;
       top: 0;
-      box-shadow: 0px 4px 3px var(--color6);
+      box-shadow: 0em 0.4em 0.3em var(--color6);
       
   }
   .ancho{
-      width: 1200px;
-      height: 100px;
+      width: 120em;
+      height: 10em;
       margin: auto;
       background-color: var(--color3);
   
   }
   .cajaImg{
-      width: 315px;
-      height: 100px;
+      width: 31.5em;
+      height: 10em;
       float: left;
       background-color: var(--color3);
       box-sizing: border-box;
   
   }
   .cajaImg img{
-      width: 70px;
-      margin-top: 15px;
-      margin-left: 60px;
+      width: 7em;
+      margin-top: 1.5em;
+      margin-left: 6em;
 }
 
 .alias{
     color:var(--color1);
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 3em;
+    margin-top: 1em;
     float:right;
 }
   nav{
-      width: 885px;
-      height: 100px;
-      padding-top: 30px;
+      width: 88.5em;
+      height: 10em;
+      padding-top: 3em;
       background-color: var(--color3);
       float: right;
       text-align: right;
@@ -66,10 +74,10 @@
       text-decoration: none;
       list-style: none;
       color:var(--color1);
-      margin-right: 32px;
-      font-size: 20px;
-      padding: 7px 1px 15px 1px;
-      border-bottom: 3px solid var(--color3);
+      margin-right: 2.5em;
+      font-size: 2em;
+      padding: 0.5em 0.1em 0.5em 0.1em;
+      border-bottom: 0.3em solid var(--color3);
       transition: 0.3s;
       
      
@@ -78,73 +86,58 @@
       transition: 0.3s;
       color: var(--color1);
       border-bottom: 3px solid var(--color1);
-      padding: 7px 1px 7px 1px;
+      padding: 0.5em 0.1em 0.5em 0.1em;
   }
 }
 @media only screen and (max-width: 375px){
-    header{
+    body{
         width: 100%;
-        height: 200px;
+        background-color: var(--color1);
+        box-sizing: content-box;
+        font-size: 10px;
+  }
+    header{
+        width: 37.5em;
+        height: 20em;
         background-color: var(--color3);
         position: fixed;
-        z-index: 1000;
         top: 0;
         box-shadow: 0px 4px 3px var(--color6);
         
     }
     .ancho{
-        width: 1200px;
-        height: 200px;
+        width: 37.5em;
+        height: 20em;
         margin: auto;
-        background-color: var(--color3);
+        background-color: yellow;
     
     }
     .cajaImg{
-        width: 500px;
-        height: 200px;
+        width: 15em;
+        height: 20em;
         float: left;
-        background-color: var(--color3);
+        background-color: red;
         box-sizing: border-box;
     
     }
     .cajaImg img{
-        width: 100px;
-        margin-top: 30px;
-        margin-left: 60px;
+        width: 7em;
+        margin-top: 1.5em;
+        margin-left: 6em;
   }
-  
   .alias{
-      color:var(--color1);
-      font-size: 50px;
-      margin-top: 50px;
-      float:right;
-  }
-  nav{
-    width: 700px;
-    height: 100px;
-    padding-top: 50px;
-    background-color: var(--color3);
+    color:var(--color1);
+    font-size: 3em;
+    margin-top: 1em;
+    float:right;
+}
+nav{
+    width: 22.5em;
+    height: 20em;
+    padding-top: 3em;
+    background-color: green;
     float: right;
     text-align: right;
     box-sizing: border-box;
-}
-nav a{
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    color:var(--color1);
-    margin-right: 32px;
-    font-size: 20px;
-    padding: 7px 1px 15px 1px;
-    border-bottom: 3px solid var(--color3);
-    transition: 0.3s;
-    
-   
-}
-nav a:hover{
-    transition: 0.3s;
-    color: var(--color1);
-    border-bottom: 3px solid var(--color1);
-    padding: 7px 1px 7px 1px;
 }
 }

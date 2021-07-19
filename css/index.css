@@ -14,7 +14,7 @@
   --color7: hsla(0, 0%, 13%, 0.212);
   --color8: #bdb469;
 } 
-  
+@media only screen and (min-width: 376px){ 
   body{
     width: 100%;
     background-color: var(--color1);
@@ -219,4 +219,14 @@
   font-size: 1.8em;
   justify-content: center;
   text-align: justify;
+}
+}
+@media only screen and (max-width: 375px){
+  
+  body{
+    width: 100%;
+    background-color: var(--color1);
+    box-sizing: content-box;
+    font-size: 10px;
+  }
 }
